@@ -14,4 +14,6 @@ Install torch to be able to turn inputs into PyTorch tensors and reduce memory u
 
 Both of the above libraries can be installed using "pip install transformers torch".
 
-Alternatively, you can also recreate my environment using my "requirements.yaml" file
+You can then add these installed libraries into your program with the import statements "import torch" and "from transformers import AutoModelForCausalLM, AutoTokenizer".
+
+You can also recreate my environment using my "requirements.yaml" file
