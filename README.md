@@ -6,14 +6,14 @@ GPT 2 has 137 million parameters, while GPT 2 Medium has 380 million parameters.
 I chose these two local language models because they are so small and my computer had too much trouble running the larger models on HuggingFace.
 
 ## Steps
-Have python 3.8 or higher installed (I am personally using 3.12).
+-Have python 3.8 or higher installed (I am personally using 3.12).
 
-Install transformers to be able to download and have access to HuggingFace's TinyLlama and LaMini models using the AutoTokenizer.from_pretrained() and AutoModelForCausalLM.from_pretrained() functions.
+-Install transformers to be able to download and have access to HuggingFace's TinyLlama and LaMini models using the AutoTokenizer.from_pretrained() and AutoModelForCausalLM.from_pretrained() functions.
 
-Install torch to be able to turn inputs into PyTorch tensors and reduce memory usage.
+-Install torch to be able to turn inputs into PyTorch tensors and reduce memory usage.
 
-Both of the above libraries can be installed using "pip install transformers torch".
+-Both of the above libraries can be installed using "pip install transformers torch".
 
-You can then add these installed libraries into your program with the import statements "import torch" and "from transformers import AutoModelForCausalLM, AutoTokenizer".
+-You can then add these installed libraries into your program with the import statements "import torch" and "from transformers import AutoModelForCausalLM, AutoTokenizer".
 
-You can also recreate my environment using my "requirements.yaml" file
+-You can also recreate my environment using my "requirements.yaml" file
