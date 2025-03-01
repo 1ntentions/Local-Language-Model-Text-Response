@@ -1,3 +1,7 @@
+# This program utilizes the torch and transformers python libraries to install tokenizers and local
+# language models GPT 2 and GPT 2 Medium from HuggingFace then use them to read text from the prompts.txt
+# file, then output that text to the outputs.txt file.
+
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
