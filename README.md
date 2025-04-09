@@ -1,15 +1,10 @@
-# Local-Language-Model-Project
-In this project 2 local language models, openai-community/gpt2 and openai-community/gpt2-medium, are loaded from HuggingFace.
+# Web Scraping
+This portion of my project scrapes headlines from the business sections of two websites, Business Insider and CNBC.
 
-GPT 2 has 137 million parameters, while GPT 2 Medium has 380 million parameters.
-
-## Steps
--Have python 3.8 or higher installed (I am personally using 3.12).
-
--The torch library is necessary to turn inputs into PyTorch tensors and reduce memory usage.
-
--The transformers library is necessary to download HuggingFace's GPT 2 and GPT 2 Medium models and tokenizers for them using the AutoTokenizer.from_pretrained() and AutoModelForCausalLM.from_pretrained() functions.
-
--Add the torch and transformers libraries into your program with the import statements "import torch" and "from transformers import AutoModelForCausalLM, AutoTokenizer".
-
--You can recreate my environment using my "requirements.yaml" file
+## Steps  
+### Install Selenium
+- This can be done by running the command "pip install selenium" in your computer's terminal  
+- Selenium is used in this program for opening the Chrome browser, navigating to each URL, finding specific HTML elements, extracting data from those elements, then closing the browser
+### Install the webdriver-manager package
+- This can be done by running the command "pip install webdriver-manager" in your computer's terminal
+- The webdriver-manager is used in this program to install and manage whatever the correct version of the ChromeDriver so that Selenium can use it
