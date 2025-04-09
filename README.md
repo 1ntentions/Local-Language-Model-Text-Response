@@ -1,5 +1,5 @@
 # Web Scraping
-This portion of my project scrapes headlines from the business sections of two websites, Business Insider and CNBC.
+This portion of my project scrapes headlines from the business sections of two websites, Business Insider and CNBC, using Selenium.
 
 ## Steps  
 ### Install Selenium
