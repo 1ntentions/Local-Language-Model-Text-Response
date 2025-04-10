@@ -5,11 +5,11 @@ This portion of my project scrapes headlines from the business sections of two w
 ### Install Selenium
 - This can be done by running the command ``` pip install selenium ``` in your computer's terminal  
 - Selenium is used in this program for
-    1. Opening the Chrome browser (webdriver.Chrome())
-    2. Navigating to each URL (driver.get())
-    3. Finding specific HTML elements (driver.find_elements())
-    4. Extracting data from those elements (.text, .get_attribute())
-    5. Closing the browser (driver.quit())
+    1. Opening the Chrome browser (```webdriver.Chrome()```)
+    2. Navigating to each URL (```driver.get()```)
+    3. Finding specific HTML elements (```driver.find_elements()```)
+    4. Extracting data from those elements (```.text```, ```.get_attribute()```)
+    5. Closing the browser (```driver.quit()```)
 - Import examples in Python:
     1. ``` from selenium import webdriver ```
     2. ``` from selenium.webdriver.chrome.service import Service ```
