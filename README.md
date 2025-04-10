@@ -18,5 +18,5 @@ This portion of my project scrapes headlines from the business sections of two w
 - This can be done by running the command "pip install webdriver-manager" in your computer's terminal
 - The webdriver-manager is used in this program to
     1. Install and manage the correct version of the ChromeDriver so that Selenium can use it
-- Import examples in Python:  
-      1. "from webdriver_manager.chrome import ChromeDriverManager"
+- Import examples in Python:
+    1. "from webdriver_manager.chrome import ChromeDriverManager"
