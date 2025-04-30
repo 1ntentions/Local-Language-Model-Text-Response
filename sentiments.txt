@@ -1,0 +1,22 @@
+---------SENTIMENTS FROM RoBERTa---------
+Neutral
+Positive
+Neutral
+Positive
+Neutral
+Negative
+Positive
+Neutral
+Neutral
+Positive
+---------SENTIMENTS FROM GPT 2---------
+Negative
+Negative
+Negative
+Negative
+Negative
+Negative
+Negative
+Negative
+Negative
+Positive
