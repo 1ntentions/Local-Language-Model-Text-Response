@@ -44,7 +44,9 @@ def main():
     # Sets up a headless Chrome browser for scraping without opening UI
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options = options)
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    driver = webdriver.Chrome(service = Service(ChromeDriverManager().install()), options = options)
 
     #Scrapes news headlines
     controller = ScraperController()
