@@ -1,15 +1,32 @@
-# Local-Language-Model-Project
-In this project 2 local language models, openai-community/gpt2 and openai-community/gpt2-medium, are loaded from HuggingFace.
+# News Headline Sentiment Classifier
+This portion of my project scrapes headlines from the business sections of two websites, Business Insider and CNBC, using Selenium. Then, two models from HuggingFace, RoBERTa and GPT 2, are loaded to classify the sentiments of these scraped headlines and write them to the "sentiments.txt" file. 
 
-GPT 2 has 137 million parameters, while GPT 2 Medium has 380 million parameters.
-
-## Steps
--Have python 3.8 or higher installed (I am personally using 3.12).
-
--The torch library is necessary to turn inputs into PyTorch tensors and reduce memory usage.
-
--The transformers library is necessary to download HuggingFace's GPT 2 and GPT 2 Medium models and tokenizers for them using the AutoTokenizer.from_pretrained() and AutoModelForCausalLM.from_pretrained() functions.
-
--Add the torch and transformers libraries into your program with the import statements "import torch" and "from transformers import AutoModelForCausalLM, AutoTokenizer".
-
--You can recreate my environment using my "requirements.yaml" file
+## Steps to use
+### Install Torch
+- This can be done by running the command ``` pip install torch ``` in your computer's terminal
+- Torch is used in this program for
+  1. Turning text inputs into PyTorch tensors
+### Install Transformers
+- This can be done by running the command ``` pip install transformers ``` in your computer's terminal
+- Transformers is used in this program for
+  1. Loading pretrained models, their tokenizers, processing text, inferring sentiments from it (```pipeline()```)
+- Import examples in Python
+  1. ``` from transformers import pipline ```
+### Install Selenium
+- This can be done by running the command ``` pip install selenium ``` in your computer's terminal  
+- Selenium is used in this program for
+    1. Opening the Chrome browser (```webdriver.Chrome()```)
+    2. Navigating to each URL (```driver.get()```)
+    3. Finding specific HTML elements (```driver.find_elements()```)
+    4. Extracting data from those elements (```.text```, ```.get_attribute()```)
+    5. Closing the browser (```driver.quit()```)
+- Import examples in Python:
+    1. ``` from selenium import webdriver ```
+    2. ``` from selenium.webdriver.chrome.service import Service ```
+    3. ``` from selenium.webdriver.common.by import By ```
+### Install the webdriver-manager package
+- This can be done by running the command ``` pip install webdriver-manager ``` in your computer's terminal
+- The webdriver-manager is used in this program to
+    1. Install and manage the correct version of the ChromeDriver so that Selenium can use it
+- Import examples in Python:
+    1. ``` from webdriver_manager.chrome import ChromeDriverManager ```
