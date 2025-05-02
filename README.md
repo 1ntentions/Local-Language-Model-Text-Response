@@ -1,7 +1,7 @@
 # News Headline Sentiment Classifier
 This portion of my project scrapes headlines from the business sections of two websites, Business Insider and CNBC, using Selenium. Then, two models from HuggingFace, RoBERTa and GPT 2, are loaded to classify the sentiments of these scraped headlines and write them to the "sentiments.txt" file.  
 
-You can find my docker repository for this on Docker Hub:  
+You can find my docker repository for this project on Docker Hub:  
 https://hub.docker.com/layers/1ntentions/headline-sentiment/latest/images/sha256:9ec6b12543bcc5f43be09ea20cea372eeebb7f074f801772a730f82c8d775762?tab=layers
 ## Steps to use
 ### Install Torch
