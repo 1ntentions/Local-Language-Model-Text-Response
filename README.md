@@ -3,7 +3,7 @@ This portion of my project scrapes headlines from the business sections of two w
 
 You can find visit my Docker Hub repository for this project here:  
 https://hub.docker.com/layers/1ntentions/headline-sentiment/latest/images/sha256:9ec6b12543bcc5f43be09ea20cea372eeebb7f074f801772a730f82c8d775762?tab=layers
-## Steps to use
+## Dependencies needed to recreate
 ### Install Torch
 - This can be done by running the command ``` pip install torch ``` in your computer's terminal
 - Torch is used in this program for
