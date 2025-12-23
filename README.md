@@ -18,7 +18,7 @@ This project demonstrates scalable software engineering principles applied to da
 The project is organized into logical modules to ensure separation of concerns:
 
 ```text
-news-sentiment-etl/
+financial-news-sentiment-analyzer/
 ├── scrapers/               # Extraction Layer
 │   ├── base_scraper.py     # Abstract Base Class (ABC)
 │   ├── cnbc_scraper.py     # CNBC Implementation
