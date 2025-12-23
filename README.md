@@ -1,4 +1,4 @@
-# Modular News Sentiment ETL
+# Financial News Sentiment Analyzer
 
 A robust, object-oriented ETL (Extract, Transform, Load) pipeline that scrapes financial news headlines from major outlets and performs comparative sentiment analysis using state-of-the-art Hugging Face Transformers.
 
@@ -34,8 +34,8 @@ news-sentiment-etl/
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/iancdunn/news-sentiment-etl.git](https://github.com/iancdunn/news-sentiment-etl.git)
-    cd news-sentiment-etl
+    git clone https://github.com/iancdunn/Financial-News-Sentiment-Analyzer.git]
+    cd Financial-News-Sentiment-Analyzer
     ```
 
 2.  **Install dependencies:**
