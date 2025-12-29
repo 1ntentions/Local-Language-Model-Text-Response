@@ -34,7 +34,7 @@ financial-news-sentiment-analyzer/
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/iancdunn/Financial-News-Sentiment-Analyzer.git]
+    git clone https://github.com/iancdunn/Financial-News-Sentiment-Analyzer.git
     cd Financial-News-Sentiment-Analyzer
     ```
 
